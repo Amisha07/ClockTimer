@@ -1,0 +1,74 @@
+body, button, input{
+    font-family: 'Orbitron', sans-serif;4
+}
+
+body{
+    margin: 48px 96px 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+
+#right{
+    width: 40%;
+    float: right; 
+}
+
+h2{
+    font-weight: normal;
+    font-size: 86px;
+}
+
+
+#control{
+    width: 50%;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.input-group{
+    margin: 20px, 0;
+}
+
+label{
+    display: inline-block;
+    width: 50%;
+    font-weight: 200;
+    font-size: 30px;
+    padding: 12px;
+}
+
+input{
+    width: 60%;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    padding-left: 6px;
+    font-weight: 200;
+    outline: none;
+}
+
+input:disabled{
+    background-color: white;
+    opacity: 0.5;
+}
+
+button{
+    padding: 12px 40px;
+    background-color: #222;
+    color: white;
+    border:none;
+    outline: none;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:disabled{
+    opacity: 0.3;
+}
